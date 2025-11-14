@@ -1,0 +1,2 @@
+path_or_bufstr, path object, file-like object, or None, default None
+String, path object (implementing os.PathLike[str]), or file-like object implementing a write() function. If None, the result is returned as a string. If a non-binary file object is passed, it should be opened with newline=¡¯¡¯, disabling universal newlines. If a binary file object is passed, mode might need to contain a ¡®b¡¯.
